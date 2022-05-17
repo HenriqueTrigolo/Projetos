@@ -1,0 +1,256 @@
+body, html{
+    height: 100%;
+    font-family:Helvetica;
+}
+
+body{
+    background-color: rgba(0, 156, 60, 0.800);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    color: rgba(0, 156, 60, 0.800);
+    margin-bottom: 25px;
+}
+.tela-login{ 
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -6px;
+    left: -6px;
+}
+
+.sombra{
+    width: 30%;
+    height: 350px;
+    background: rgba(39, 39, 39, 0.35);
+}
+
+.form-tela-login{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    align-items: center;
+}
+.mb-3{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-login{
+    width: 100px;
+    height: 38px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: rgba(0, 156, 60, 0.800);
+    color: white;
+    border-radius: 5px;
+}
+
+.btnlogin{
+    width: 100%;
+    height: 38px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    position: relative;
+    background-color: rgba(0, 156, 60, 0.800);
+    margin-top: 10%;
+}
+
+.sombra2{
+    width: 30%;
+    height: 500px;
+    background: rgba(39, 39, 39, 0.35);
+}
+.menu{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -6px;
+    left: -6px;
+}
+
+.logotipo{
+    color: rgba(0, 156, 60, 0.800);
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.HPark{
+    height: 90%;
+    margin-top: 10%;
+    
+}
+
+.BVusuario{
+    width: 100%;
+    height: 20%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.botoes{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form-menu{
+    margin: 5px;
+}
+.btnMenu{
+    margin: auto;
+    width: 180px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    position: relative;
+    background-color: rgba(0, 156, 60, 0.800);
+}
+
+
+
+
+/*-------------------Retirar.php----------------------------*/
+
+.sombra3{
+    width: 30%;
+    height: 180px;
+    background: rgba(39, 39, 39, 0.35);
+}
+
+.retirar{
+    background-color: white ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -6px;
+    left: -6px;
+}
+
+.labelRetirar{
+    color: rgba(0, 156, 60, 0.800);
+    height: 30%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.selectRetirar{
+    height: 30%;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.slctRetirar{
+    width: 50%;
+    text-align: center;
+}
+
+
+.botaoRetirar{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnRetirar{
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    
+    background-color: rgba(0, 156, 60, 0.800);
+}
+/*------------------------Retirado.php-----------------------*/
+
+.sombra4{
+    width: 40%;
+    height: 250px;
+    background: rgba(39, 39, 39, 0.35);
+}
+
+.telaRetirado{
+    background-color: white ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -6px;
+    left: -6px;
+}
+
+.sucesso, .aPagar{
+    color: rgba(0, 156, 60, 0.800);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.botaoRetirado{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    display: flex;
+}
+
+.inicio{
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(0, 156, 60, 0.800);
+}
+/*
+*/
+/*
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    position: relative;
+
+
+    font-family:Helvetica;
+*/
