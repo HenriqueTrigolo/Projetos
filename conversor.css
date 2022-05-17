@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(66, 66, 66);
+}
+
+.box{
+    background-color: white;
+    height: 300px;
+    border-radius: 20px;
+
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+
+    text-align: center;
+
+    border-style:outset;
+    border-color: rgb(250, 153, 74);
+    border-width: 7px;
+}
+
+.row,.resultado{
+    margin-top: 30px;
+}
+
+.titulo{
+    background-color: rgb(250, 153, 74);
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecao{
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.resultado{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
