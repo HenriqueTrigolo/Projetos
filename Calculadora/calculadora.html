@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="calculadora.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <form action="" name="Calculator">
+        
+            <div class="forma">
+                <div class="visor">
+                    <input type="text" name="visor" disabled>
+                </div>
+                    
+                    <input type="button" class="botao2" name="C" value="C" onclick="location.reload()">
+                    <input type="button" class="botao2" name="=" value="=" onclick="visor.value=eval(visor.value)">
+                    <br>
+                    <input type="button" class="botao1" name="botao7" value="7" onclick="calculo(botao7.value)">
+                    <input type="button" class="botao1" name="botao8" value="8" onclick="calculo(botao8.value)">
+                    <input type="button" class="botao1" name="botao9" value="9" onclick="calculo(botao9.value)">
+                    <input type="button" class="botao3" name="soma" value="+" onclick="calculo(soma.value)">
+                    <br>
+                    <input type="button" class="botao1" name="botao4" value="4" onclick="calculo(botao4.value)">
+                    <input type="button" class="botao1" name="botao5" value="5" onclick="calculo(botao5.value)">
+                    <input type="button" class="botao1" name="botao6" value="6" onclick="calculo(botao6.value)">
+                    <input type="button" class="botao3" name="subtracao" value="-" onclick="calculo(subtracao.value)">
+                    <br>
+                    <input type="button" class="botao1" name="botao1" value="1" onclick="calculo(botao1.value)">
+                    <input type="button" class="botao1" name="botao2" value="2" onclick="calculo(botao2.value)">
+                    <input type="button" class="botao1" name="botao3" value="3" onclick="calculo(botao3.value)">
+                    <input type="button" class="botao3" name="multiplicacao" value="*" onclick="calculo(multiplicacao.value)">
+                    <br>
+                    <input type="button" class="botao1" name="botao0" value="0" onclick="calculo(botao0.value)">
+                    <input type="button" class="botao1" name="ponto" value="." onclick="calculo(ponto.value)">
+                    <input type="button" class="botao3" name="DEL" value="DEL" onclick="remover()">
+                    <input type="button" class="botao3" name="divisao" value="/" onclick="calculo(divisao.value)">
+            </div>
+        
+    </form>
+</body>
+</html>
