@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pix.css">
+    <script src="pix.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="recebimento">
+        <form class="select">
+            <label for="">Qual chave deseja utilizar?</label>
+            <select name="chave" id="chave" onchange="mostraChave(value)">
+                <option value="null">Selecione sua chave</option>
+                <option value="cpf">CPF</option>
+                <option value="cnpj" >CNPJ</option>
+                <option value="email" >E-mail</option>
+                <option value="celular" >Numero do Celular</option>
+                <option value="chave aleatoria" >Chave Aleatória</option>
+            </select>
+        </form>
+
+        <form class="sua_chave" name="Visor_da_chave">
+            <label for="">Sua chave:</label>
+            <input class="visor" type="text" name="visor" disabled>
+        </form>
+    </div>
+    
+    <div class="voltar">
+        <a href="pix.html">Voltar</a>
+    </div>
+
+</body>
+</html>

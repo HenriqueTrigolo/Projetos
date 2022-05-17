@@ -1,0 +1,164 @@
+header{
+    display: flex;
+    text-align: center;
+    background: rgb(29, 73, 184);
+    height: 200px;
+    
+}
+
+body{
+    margin-top: 50px;
+    margin-inline: 0px;
+    background-color:white;
+    background-image: url(./imagens/fundo.jpg);
+    font-family:Helvetica;
+}
+
+select{
+    max-width: 300px;
+}
+
+a{
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    border: inset;
+    border-color:rgb(200, 200, 200);
+    background-color: rgb(29, 73, 184);
+    
+    color: rgb(255, 255, 255);
+    padding: 15px 100px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button{
+    border-radius: 100px;
+    background-color: rgb(29, 73, 184);
+    cursor: pointer;
+
+    color: rgb(255, 255, 255);
+    border: inset;
+    border-color:rgb(200, 200, 200);
+    padding: 30px 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.imagem{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    width: 450px;
+    height: auto;
+    
+}
+
+.menu{
+    margin: auto; 
+    margin-top: 50px;
+    border: inset;
+    border-width: 10px;
+    border-color: rgb(29, 73, 184);
+    
+    width: 500px;
+    height: 300px;
+    text-align:center;
+    background-color: white;
+}
+
+.BotaoInferior{
+    margin-top: 10px;
+}
+
+.informacoes{
+    margin:auto;
+    width: 500px;
+    height: 500px;
+    border: inset;
+    border-width: 10px;
+    border-color: rgb(29, 73, 184);
+    background-color: rgb(255, 255, 255); 
+
+    font-size: 20px;
+}
+
+.select, .valorchave, .valorreais, .carregarbancos, .sua_chave{
+    margin: auto;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: dotted;
+    border-color: rgba(29, 73, 184, 0.5);
+}
+
+.CB{
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgb(29, 73, 184);
+    color: white;
+}
+
+.data{
+    margin: auto;
+    height: 100px;
+    margin-top: 20px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: dotted;
+    border-color: rgba(29, 73, 184, 0.5);
+}
+
+.data_radio{
+    text-align: left;
+    width: 250px;
+    margin: auto;
+}
+
+.efetua{
+    margin: auto;
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voltar{
+    margin:auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.recebimento{
+    margin:auto;
+    width: 500px;
+    height: 100px;
+    border: inset;
+    border-width: 10px;
+    border-color: rgb(29, 73, 184);
+    background-color: rgb(255, 255, 255); 
+
+    font-size: 20px;
+}
+.visor{
+    width: 300px;
+    color: black;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pix.css">
+    <script src="pix.js"></script>
+    <title>Enviar</title>
+</head>
+<body>
+      
+    <div class="informacoes">
+        
+        <div class="select">
+            <label for="TipoDeChave">Selecione o tipo de chave:</label>
+            <select name="TipoDeChave" id="chave">
+                <option value="vazio">Selecione:</option>
+                <option value="cpf">CPF</option>
+                <option value="cnpj">CNPJ</option>
+                <option value="email">E-mail</option>
+                <option value="celular">Numero do Celular</option>
+                <option value="chave aleatoria">Chave Aleatória</option>
+            </select>
+        </div>
+            
+        <form class="valorchave" name="ValorDaChave">
+            <label>Digite sua chave aqui:</label>
+            <input type="text" name="chave" id="chave" placeholder="chave">
+        </form>
+
+        <form class="valorreais" name="ValorReais">
+            <label>Digite o valor a ser transferido:</label>
+            <input type="text" name="valor" id="valor" placeholder="valor">
+        </form>
+        
+        
+        
+        <form class="data" name="Data" class="Form-Data">
+            <label>Selecione a data para realizar a transferencia:</label>
+            <div class="data_radio">
+                <input type="radio" name="data" id="hoje" value="Hoje" onclick="desabilita(true)" checked>
+                <label for="data">Hoje</label>
+            </div>
+            <div class="data_radio">
+                <input type="radio" name="data" id="agendar" value="Agendar" onclick="desabilita(false)">
+                <label for="data">Agendar</label>
+                <input type="date" name="data" id="date" disabled>
+            </div>
+        </form>
+
+        <form class="carregarbancos">
+                
+            <input class="CB" type="button" value="Carregar Bancos" onclick="carregarBancos()">
+
+            <select name="bancos" id="bancos">
+                <option value="null">Selecione:</option>
+            </select>
+                
+        </form>
+
+        <form action="resumo.html" class="efetua">    
+            <button type="submit" onclick="registra()">Efetuar PIX</button>   
+        </form>
+        
+        
+    </div>
+    <div class="voltar">
+        <a href="pix.html">Voltar</a>
+    </div>
+</body>
+</html>
+
+
+<!--<div>
+    <input type="radio" name="genero" id="feminino" value="F">
+    <label for="feminino">Feminino</label>
+</div>
+<div>
+    <input type="radio" name="genero" id="masculino" value="M">
+    <label for="masculino">Masculino</label>
+</div>
+<div>
+    <input type="radio" name="genero" id="naobinario" value="NB">
+    <label for="naobinario">Não Binário</label>
+</div>
+<div>
+    <input type="radio" name="genero" id="semresposta" value="SR">
+    <label for="semresposta">Prefiro não responder</label>
+</div>
+<input type="submit" value="input" onclick="ValorDaChave(feminino.value)">
+<div>
+    <label for="chave">Valor da chave:</label>
+    <input type="text" name="chave" id="ch" placeholder="Somente Números">
+</div>-->
