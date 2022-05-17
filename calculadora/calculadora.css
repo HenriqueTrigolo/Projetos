@@ -1,0 +1,53 @@
+.botao1 {
+    background-color: #0053be; 
+    color: black; 
+    width:100px;
+    height:100px;
+    text-align:center;
+    font-size: xx-large;
+    font-family: monospace;
+}
+.botao2 {
+    background-color: #c90101; 
+    color: black; 
+    width:204px;
+    height:100px;
+    text-align:center;
+    font-size: xx-large;
+    font-family: monospace;
+}
+.botao3 {
+    background-color: grey; 
+    color: black; 
+    width:100px;
+    height:100px;
+    text-align:center;
+    font-size: xx-large;
+    font-family: monospace;
+}
+
+.forma{
+    text-align:center; 
+    background-color: black;
+    margin:auto;
+    width:420px;
+}
+
+.visor input{
+    border: 5px solid black;
+    background-color: rgb(194, 194, 194);
+    color:black;
+    font-size: 50px;
+    text-align: right;
+    font-style: italic;
+    height:70px;
+    width: 405px;
+}
+
+.visor p{
+    color:black;
+    margin-top:11.5px;
+    font-size: 40px;
+    text-align:right;
+    font-family: monospace;
+}
